@@ -1,0 +1,36 @@
+# ─── Secrets (never bake into image) ───────────────────
+.env
+.env.local
+credentials.json
+token.json
+
+# ─── Dependencies (reinstalled inside container) ───────
+node_modules
+npm-debug.log*
+
+# ─── Git / editor metadata ─────────────────────────────
+.git
+.gitignore
+.vscode
+.idea
+*.swp
+
+# ─── Local DB files ────────────────────────────────────
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# ─── Docs / dev files ──────────────────────────────────
+README.md
+*.md
+coverage
+dist
+build
+logs
+
+# ─── OS junk ───────────────────────────────────────────
+.DS_Store
+Thumbs.db
+Desktop.ini
+desktop.ini

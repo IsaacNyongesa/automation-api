@@ -1,0 +1,36 @@
+# ─── Secrets (NEVER commit these) ──────────────────────
+.env
+.env.local
+credentials.json
+token.json
+
+# ─── Dependencies ──────────────────────────────────────
+node_modules/
+package-lock.json
+
+# ─── Database files ────────────────────────────────────
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# ─── Logs ──────────────────────────────────────────────
+*.log
+npm-debug.log*
+logs/
+
+# ─── OS junk ───────────────────────────────────────────
+.DS_Store
+Thumbs.db
+Desktop.ini
+desktop.ini
+
+# ─── Editor ────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+
+# ─── Build artifacts ───────────────────────────────────
+dist/
+build/
+coverage/
